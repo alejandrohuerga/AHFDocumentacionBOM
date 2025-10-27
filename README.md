@@ -53,6 +53,35 @@ En esta imagen podemos comprobar la estructura de árbol que tiene el BOM , desd
     - write() : Escribe expresiones HTML o JavaScript en el documento.
     - URL : Devuelve la url completa del documento.
 
+#### History Object 
+
+El objeto History contiene las urls que han sido visitadas por el usuario (En la ventana del navegador).
+
+Es una propiedad del objeto Window.
+
+Se puede acceder a el mediante: 
+
+```bash
+window.history()
+```
+
+```bash
+history()
+```
+
+- MÉTODOS Y PROPIEDADES: 
+
+    - back() : Carga la url anterior de la lista del historial.
+    - forward() : Cargar la siguiente url en la lista del historial.
+    - go() : Cargar una url en especifico de la lista del historial.
+    - length() : Devuelve el numero de url en el historial.
+
+
+#### Screen Object 
+
+El objeto Screen contiene información sobre la pantalla o el monitor del cliente.
+
+
 
 
 
