@@ -34,6 +34,9 @@ En esta imagen podemos comprobar la estructura de árbol que tiene el BOM , desd
     - alert() : Muestra una alerta en la ventana.
     - setInterval() : Evalua una función en el intervalo especificado.
     - setTimeout() : Evalua una funcion o expresión en un especifico numero de milisegundos.
+    - addEventListenner() : añade un evento a un elemento de nuestra web.
+    - moveBy(): para movernos a una posición relativa.
+    - moveTo(): para movernos a una posición en la web.
 
 
   #### Document Object
