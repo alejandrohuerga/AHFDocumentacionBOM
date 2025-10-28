@@ -32,6 +32,8 @@ En esta imagen podemos comprobar la estructura de árbol que tiene el BOM , desd
     - window.moveTo() : Mueve la ventana actual.
     - window.resizeTo() : Redimensiona la ventana.
     - alert() : Muestra una alerta en la ventana.
+    - setInterval() : Evalua una función en el intervalo especificado.
+    - setTimeout() : Evalua una funcion o expresión en un especifico numero de milisegundos.
 
 
   #### Document Object
