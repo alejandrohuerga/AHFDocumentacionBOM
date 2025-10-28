@@ -2,7 +2,8 @@
 | DWEC JAVASCRIPT BOM |
 |:-----------:|
 ![Alt](images/banner%20javascript.jpg)|
-| DESARROLLO WEB ENTORNO CLIENTE 
+| DESARROLLO WEB ENTORNO CLIENTE |
+
 
 
 ## 1. BOM JAVASCRIPT (Browser Object Model)
@@ -81,8 +82,73 @@ history()
 
 El objeto Screen contiene información sobre la pantalla o el monitor del cliente.
 
+- PROPIEDADES DEL OBJETO SCREEN:
+
+    - availHeight : Devuelve la altura de la pantalla.
+    - availWidth : Devuelve la anchura de la pantalla.
+    - colorDepth : Devuelve la cantidad de bits de la paleta de colores.
+    - height: Devuelve la altura total de la pantalla.
+    - pixelDepth : Devuelve la resolución de color (bits por pixel).
+    - width: Devuelve la anchura total de la pantalla.
+
+
+#### Location Object 
+
+El objeto Location contiene información sobre la URL actual.
+
+Se puede acceder a el mediante 
+
+```bash
+window.location 
+```
+
+O simplemente: 
+
+```bash
+location 
+```
+
+ - PROPIEDADES DEL OBJETO LOCATION: 
+
+    - host : Devuelve el hostname y el numero de puerto de la URL.
+    - href : Devuelve la URL entera.
+    - pathname : Devuelve el nombre del path de la URL.
+    - port: Devuelve el numero de puerto.
+    - protocol : Devuelve el protocolo.
+
+
+ - MÉTODOS DEL OBJETO LOCATION:
+
+    - assign() : Carga un nuevo documento.
+    - reload() :  Recarga el documento actual. 
+    - replace() : Sustituye el documento por otro nuevo.
 
 
 
+#### Console Object 
 
+El objeto Object proviene de acceso a la consola de debug del navegador.
+
+Es una propiedad del objeto Window.
+
+Se puede acceder a el mediante: 
+
+```bash
+window.console
+```
+
+O simplemente: 
+
+```bash
+console
+```
+
+ - MÉTODOS DEL OBJETO CONSOLE: 
+    - assert() : Escribe un mensaje de error en la consola si la aserción es falsa.
+    - clear() : Limpia la consola.
+    - error () : Salida de un mensaje de error por consola.
+    - log() : Salida de un mensaje por consola (Sea cual sea el mensaje).
+    - warn() : Salida de un mensaje de warning por consola.
+
+Alejandro De la Huerga Fernández (28-10-2025)
 
